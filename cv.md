@@ -71,7 +71,8 @@ const clamp = () => {
 [Peter the Great St. Petersburg Polytechnic University](https://www.spbstu.ru)   
 Web Development <hr>
 * [CodeWars](https://www.codewars.com/users/OkoDev)   
-* [Sololearn](https://www.sololearn.com/profile/1138754)
+* [Sololearn](https://www.sololearn.com/profile/1138754)   
+* [HTMLAcademy](https://htmlacademy.ru/profile/id105498)
 
 ## English
 Pre-Intermediate (B1)
