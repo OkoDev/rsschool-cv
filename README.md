@@ -1,1 +1,1 @@
-https://OkoDev.github.io/rsschool-cv/cv
+[CV @rsschool](https://OkoDev.github.io/rsschool-cv/cv)
