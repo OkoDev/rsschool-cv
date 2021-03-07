@@ -69,7 +69,9 @@ const clamp = () => {
 ## Education
 * 2018 - 2019, St. Petersburg (Russia) <br>
 [Peter the Great St. Petersburg Polytechnic University](https://www.spbstu.ru)   
-Web Development <hr>
+Web Development 
+<hr>
+
 * [CodeWars](https://www.codewars.com/users/OkoDev)   
 * [Sololearn](https://www.sololearn.com/profile/1138754)   
 * [HTMLAcademy](https://htmlacademy.ru/profile/id105498)
