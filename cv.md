@@ -5,8 +5,8 @@
 
  **E-mail:** <oko.webdev@gmail.com>  
  **Tel.:** +7 911 2678686  
- **Github:** [@OkoDev](https://github.com/OkoDev)
- ___
+ **Github:** [@OkoDev](https://github.com/OkoDev) 
+ <hr>
 
 ## Summary
 
