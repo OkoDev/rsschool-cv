@@ -5,23 +5,71 @@
 
  **E-mail:** <oko.webdev@gmail.com>  
  **Tel.:** +7 911 2678686  
- **Github:** [@OkoDev] [https://github.com/OkoDev]
+ **Github:** [@OkoDev](https://github.com/OkoDev)
  ___
 
-* ### Summary
+## Summary
 
 >I am a beginner web developer. 
 >In the future, I want to become a full stack developer. 
 >I consider my strengths to be purposefulness, punctuality, desire to constantly grow.
 
-* ### Skills
-    * HTML
-    * CSS
+## Skills   
+     * HTML
+     * CSS
        * SASS
        * Bootstrap
     * Git
     * JS
        * jQuery
        * Vue
-    * Webpack
     * Gulp
+    * Webpack
+
+## Code examples
+
+```js
+const clamp = () => {
+        const modules = document.querySelectorAll('.clamp');
+        modules.forEach(module => $clamp(module, {clamp: 3}))
+    };
+
+    clamp();
+
+    $('.load-more').on('click', function () {
+        const btn = $(this);
+        const loader = btn.find('span');
+        $.ajax({
+            url: '../data.html',
+            type: 'GET',
+            beforeSend: function () {
+                btn.attr('disabled', true);
+                loader.addClass('d-inline-block');
+            },
+            success: function (response) {
+                setTimeout(function () {
+                    loader.removeClass('d-inline-block');
+                    btn.attr('disabled', false);
+                    $('.after-posts').before(response);
+                    clamp();
+                }, 1000);
+            },
+            error: function () {
+                alert('Error!');
+                loader.removeClass('d-inline-block');
+                btn.attr('disabled', false);
+            }
+        });
+
+    });
+``` 
+
+## Work Experience
+     
+## Education
+* 2018 - 2019, St. Petersburg (Russia) <br>
+[Peter the Great St. Petersburg Polytechnic University](https://www.spbstu.ru)   
+Web Development
+
+## English
+Pre-Intermediate (B1)
