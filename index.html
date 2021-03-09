@@ -3,13 +3,160 @@
 <head>
     <meta charset="UTF-8">
     <title>HTML, CSS & Git Basics - task</title>
-    <link  rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header>
-    <h1>Egor Seleznev</h1>
+<header class="site-header">
+
+    <div class="wrapper">
+        <h1><a class="page-link" href="https://okodev.github.io/rsschool-cv/cv">Egor Seleznev | rsschool-cv</a></h1>
+    </div>
 
 </header>
+<main class="page-content" aria-label="Content">
+    <div class="wrapper">
+        <article class="post">
+            <div class="post-content">
+                <img src="img/profile.png" alt="My Photo"/>
+                <h3 id="contact-info">Contact Info</h3>
+
+                <ul>
+                    <li>E-mail: <a href="mailto:oko.webdev@gmail.com"> oko.webdev@gmail.com</a></li>
+                    <li>Tel.: <a href="tel:+7 911 2678686"> +7 911 2678686</a></li>
+                    <li>GitHub: <a href="https://github.com/OkoDev"> @OkoDev</a></li>
+                </ul>
+                <hr>
+
+                <h3 id="summary">Summary</h3>
+
+                <p>I am a beginner web developer. In the future, I want to become a full stack developer. I consider my
+                    strengths to be purposefulness, punctuality, desire to constantly grow.</p>
+
+                <h2 id="skills">Skills</h2>
+
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <ul>
+                        <li>SASS</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                    <li>Git</li>
+                    <li>JS</li>
+                    <ul>
+                        <li>jQuery</li>
+                        <li>Vue</li>
+                    </ul>
+                    <li>Gulp</li>
+                    <li>Webpack</li>
+                </ul>
+
+                <h2 id="code-examples">Code examples</h2>
+                <pre>
+                const clamp = () => {
+                const modules = document.querySelectorAll('.clamp');
+                modules.forEach(module => $clamp(module, {clamp: 3}))
+                };
+
+                clamp();
+
+                $('.load-more').on('click', function () {
+                const btn = $(this);
+                const loader = btn.find('span');
+                $.ajax({
+                url: '../data.html',
+                type: 'GET',
+                beforeSend: function () {
+                btn.attr('disabled', true);
+                loader.addClass('d-inline-block');
+                },
+                success: function (response) {
+                setTimeout(function () {
+                loader.removeClass('d-inline-block');
+                btn.attr('disabled', false);
+                $('.after-posts').before(response);
+                clamp();
+                }, 1000);
+                },
+                error: function () {
+                alert('Error!');
+                loader.removeClass('d-inline-block');
+                btn.attr('disabled', false);
+                }
+                });
+
+                });
+                </pre>
+                <h2 id="experience">Work Experience:</h2>
+                <hr>
+
+                <h3 id="education">Education:</h3>
+                <ul>
+                    <li>2018 - 2019, St. Petersburg (Russia)
+                        <br><a href="https://www.spbstu.ru/">Peter the Great St. Petersburg Polytechnic University</a>
+                        <br>Web Development
+                    </li>
+                    <hr>
+
+                    <li>
+                        <a href="https://www.codewars.com/users/OkoDev">
+                            CodeWars
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.sololearn.com/profile/1138754">
+                            Sololearn
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://htmlacademy.ru/profile/id105498">
+                            HTMLAcademy
+                        </a>
+                    </li>
+
+                    </li>
+                </ul>
+                <hr>
+
+                <h2 id="languages">Languages:</h2>
+                <ul class="task-list">
+                    <li class="task-list-item">
+                        <input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked"/>English - Pre-Intermediate (B1)
+                    </li>
+                    <li class="task-list-item">
+                        <input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked"/>Russian - Native
+                    </li>
+                </ul>
+
+            </div>
+
+        </article>
+
+    </div>
+</main>
+<footer class="site-footer h-card">
+    <data class="u-url" href="/"></data>
+
+    <div class="wrapper">
+
+
+        <div class="footer-col-wrapper">
+            <div class="footer-col footer-col-1">
+                <ul class="contact-list">
+                    <li class="p-name">Egor Seleznev</li>
+                    <a class="u-email" href="mailto:oko.webdev@gmail.com"> oko.webdev@gmail.com</a>
+                </ul>
+            </div>
+
+
+            <div class="footer-col footer-col-3">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, voluptate!</p>
+            </div>
+        </div>
+
+    </div>
+
+</footer>
 
 </body>
 </html>
